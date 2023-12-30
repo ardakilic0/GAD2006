@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Labwork3",
+			"Path": "D:\\Unreal Engine Projeler\\GAD2006\\GAD2006\\Labwork3\\Source\\Labwork3.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Labwork3Editor",
+			"Path": "D:\\Unreal Engine Projeler\\GAD2006\\GAD2006\\Labwork3\\Source\\Labwork3Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
