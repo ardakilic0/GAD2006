@@ -40,10 +40,13 @@ public:
 	UPROPERTY(VisibleAnywhere, ReplicatedUsing = UpdateMovementParams)
 	bool bIsRunning;
 
+	UPROPERTY(BlueprintReadWrite)
+	float MovementScale;
+
 private:
 
-	void MoveForward(float Amount);
-	void MoveRight(float Amount);
+	void MoveForward(float Scale);
+	void MoveRight(float Scale);
 
 	void RunPressed();
 	void RunReleased();
